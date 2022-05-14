@@ -97,7 +97,7 @@ with st.echo(code_location='below'):
         colors=sns.color_palette('pastel')
         plt.pie(current_pie_df[category_of_compare],  labels=current_pie_df['company'], textprops={"fontsize":7},
                 autopct='%.1f', pctdistance=0.8, colors=colors)
-        plt.legend(loc='upper right', fontsize = 5, title='Companies:', title_fontsize=7)
+        plt.legend(loc='upper right', fontsize = 5, title='Companies:', title_fontsize=5)
         st.pyplot(plt, clear_figure=True)
 
     if __name__ == '__main__':
