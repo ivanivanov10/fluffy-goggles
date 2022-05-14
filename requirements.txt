@@ -1,2 +1,5 @@
 seaborn
 altair
+matplotlib.pyplot
+plotly express
+streamlit
